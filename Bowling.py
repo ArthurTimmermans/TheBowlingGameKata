@@ -31,6 +31,9 @@ class game:
                 self.round = 2
                 self.frame += 1
 
-        else:
+        elif self.frame is 10:
             pass
             #Hier komt de tiende frame
+        else:
+            pass
+            #This will trigger the end of the game function
